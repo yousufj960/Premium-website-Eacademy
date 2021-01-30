@@ -1,0 +1,238 @@
+
+/*
+
+           For mobile
+
+*/
+@media screen and (max-width: 600px)
+{   
+    .slicknav_menu{
+    display: block;
+    }
+
+    #top_header_area
+    {
+    display: none;
+    }
+    #main_menu ul
+    {
+    display: none;
+    }
+    #Bottom_header .logo {
+    text-align: center;
+    }
+   
+   
+    #slider_area .slider_main{
+
+    width: 90%;
+
+    }
+
+    #service_area  .owl-theme .owl-dots .owl-dot span {
+        width: 10px;
+        height: 4px;
+    }
+    #slider_area .slider_main h3
+    {
+    font-size: 22px;
+    letter-spacing: 3px;
+    }
+    #slider_area .slider_main p
+    {
+    display: none;
+    }
+    #slider_area .readmore 
+    {
+    padding: 6px 25px;
+    font-size: 12px;
+    }
+
+    #feature_area .child_feature
+    {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+#service_area .child_service h5::after
+    {
+    width: 90px; 
+    height: 1px;
+    bottom: 80px;
+    left: 125px;
+
+    }
+
+#course_area .course .child_course img{
+ margin:10px auto;
+}
+
+#course_area .owl-theme .owl-dots .owl-dot span {
+width: 10px;
+height: 4px;
+
+}
+#footer .col-md-3{
+margin-bottom: 30px;
+}
+    
+    
+#Copyright p
+{
+    color: aliceblue;
+    font-size: 10px;
+
+}
+    
+#Copyright img
+{
+    float: none;
+    margin: 0 auto;
+    width: 100px;
+
+}
+
+
+}
+
+    
+    
+    
+    
+/*
+  For pad  
+*/
+    
+@media screen and (max-width: 992px)  {
+#scrollUp
+{
+    background: url(image/scroll.png)no-repeat;
+    height: 40px;
+    width: 45px;
+    bottom: 9px;
+    right: 5px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+#top_header_area .Right_side ul 
+    {
+        margin: 0  auto;
+        text-align: right;
+    }
+    
+#top_header_area .Left_side ul 
+    {
+        margin: 0  auto;
+        text-align: left;
+    }
+    
+#top_header_area .Right_side ul li 
+    {
+        display: inline-block;
+        padding: 1px 2px;
+    }
+
+#top_header_area
+    {
+        padding: 10px;
+        font-size: 13px;
+    }
+    
+#top_header_area  .Left_side ul li
+{
+  padding: 0px 19px;
+}
+     #service_area .child_service h5::after
+    {
+        display: none;
+
+    }
+#service_area .child_service h5
+    {
+    font-size: 14px;
+    }
+#service_area .child_service p
+    {
+    font-size: 10px;
+    }
+
+
+#main_menu ul li a
+{
+font-size: 13px;
+}
+#main_menu ul li 
+{
+margin-right: 6px;
+}
+#footer h4
+{
+font-size: 20px;
+}
+#footer p
+{
+width: 97%;
+margin: 5px auto;
+    font-size: 12px;
+}
+#footer .design
+{
+font-size: 10px;
+}
+#footer .social li
+{
+ margin: 0px 1px;
+}
+    
+#slider_area .slider_main{
+
+width: 90%;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*
+    extra
+*/
+
+@media only screen and (max-width:783px)
+{
+
+#service_area .child_service h5::after
+{
+display: none;
+
+}
+#top_header_area .Left_side ul {
+text-align: center;
+}
+#top_header_area .Left_side ul li{
+border: 0;
+margin: 0 10px;
+}
+#top_header_area .Right_side ul  {
+text-align: center;
+margin-top: 5px;border-left: 0px;
+border-right: 0px;
+
+}
+#top_header_area .Right_side ul li{
+border: 0;
+margin: 0 10px;
+}
+#slider_area .slider_main{
+
+width: 90%;
+
+}
+}
